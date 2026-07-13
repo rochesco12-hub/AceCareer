@@ -17,9 +17,11 @@ Status: Foundation Complete → Implementation Phase
 
 ## 文档结构
 
-完整的 36 章 Game Design Document（Ace Career Bible）：
+完整的 52 章 Game Design Document：
 
-### 核心引擎（P0）
+### Engine Bible（36 章）— `docs/bible/`
+
+**核心引擎（P0）**
 | # | 系统 | 说明 |
 |---|------|------|
 | 01 | ATP Calendar | 世界时间引擎，唯一时间来源 |
@@ -38,7 +40,7 @@ Status: Foundation Complete → Implementation Phase
 | 14 | Data Model | 全局数据模型 |
 | 15 | Test Cases | 测试与验证标准 |
 
-### 玩法系统（P1）
+**玩法系统（P1）**
 | # | 系统 | 说明 |
 |---|------|------|
 | 16 | Economy System | 经济系统 |
@@ -49,7 +51,7 @@ Status: Foundation Complete → Implementation Phase
 | 21 | Player Progression | 球员成长系统 |
 | 22 | Player Attributes | 球员属性系统 |
 
-### 世界持久化
+**世界持久化**
 | # | 系统 | 说明 |
 |---|------|------|
 | 23 | World Simulation | 世界模拟系统 |
@@ -58,18 +60,33 @@ Status: Foundation Complete → Implementation Phase
 | 26 | Rivalry & Legacy | 宿敌与传奇系统 |
 | 27 | Endgame System | 退役终局系统 |
 
-### 基础设施
+**基础设施**
 | # | 系统 | 说明 |
 |---|------|------|
-| 28 | Mod System | 世界配置系统 |
-| 29 | Game Balance | 全局平衡系统 |
-| 30 | Roadmap | 开发路线图 |
-| 31 | Development Guidelines | 开发规范 |
-| 32 | Design Principles | 核心设计原则 |
-| 33 | Content Expansion | 内容扩展路线 |
-| 34 | Future Backlog | 未来扩展规划 |
-| 35 | Release Checklist | 发布检查清单 |
-| 36 | Appendix | 命名规范与设计标准 |
+| 28~36 | Mod / Balance / Roadmap / Dev Guidelines / Design Principles / Content Expansion / Future Backlog / Release Checklist / Appendix |
+
+---
+
+### Gameplay Bible（16 章）— `docs/gameplay/`
+
+| # | 章节 | 说明 |
+|---|------|------|
+| 01 | Core Gameplay Loop | 黄金循环 — One More Week 原则 |
+| 02 | Today Page | 最重要的页面 — 5 秒理解职业现状 |
+| 03 | Week Gameplay | 以周为核心的玩法设计 |
+| 04 | Tournament Gameplay | 赛事旅程 — 从报名到离开 |
+| 05 | Match Day | 比赛日完整体验 |
+| 06 | Training Gameplay | 训练规划 + Peak 设计 |
+| 07 | Recovery Gameplay | 恢复也是职业选择 |
+| 08 | Travel Gameplay | 巡回赛旅行规划 |
+| 09 | Coach Gameplay | 教练是最重要的伙伴 |
+| 10 | Career Goals | 四层目标系统 |
+| 11 | Player Psychology | 情绪设计与留存 |
+| 12 | Difficulty | AI 永不作弊的难度系统 |
+| 13 | Meta Progression | 长期收藏与 Hall of Fame |
+| 14 | Onboarding | 5 分钟爱上 Career |
+| 15 | UX Flow | 3 秒知道下一步 |
+| 16 | LiveOps | 世界持续运营 |
 
 ---
 
